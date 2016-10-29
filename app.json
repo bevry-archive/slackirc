@@ -21,7 +21,7 @@
       "required": true
     },
     "SLACKIRC_CHANNELS": {
-      "description": "A CSV channel mapping of slack channels to IRC channels. E.g. #bevry:#general,#docpad,#historyjs:#history.js",
+      "description": "A CSV channel mapping of slack channels to IRC channels. E.g. #general:#bevry,#docpad,#historyjs:#history.js",
       "required": true
     }
   }
