@@ -36,7 +36,9 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/slackirc/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/slackirc">view contributions</a></li></ul>
 
 
 
@@ -49,7 +51,7 @@ No contributors yet! Will you be the first?
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2016+ <a href="http://balupton.com">Benjamin Arthur Lupton</a></li></ul>
+<ul><li>Copyright &copy; 2016+ <a href="http://bevry.me">Bevry Pty Ltd</a></li></ul>
 
 and licensed under:
 
