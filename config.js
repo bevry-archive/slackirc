@@ -19,9 +19,7 @@ module.exports = [{
 		return channels
 	})(),
 	autoSendCommands: process.env.SLACKIRC_PASSWORD && [
-		['PRIVMSG', 'NickServ', 'IDENTIFY ' + process.env.SLACKIRC_PASSWORD],
-		['MODE', 'test', '+x'],
-		['AUTH', 'test', 'password']
+		['PRIVMSG', 'NickServ', 'IDENTIFY ' + process.env.SLACKIRC_PASSWORD]
 	] || null
 }]
 
