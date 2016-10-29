@@ -16,7 +16,8 @@ module.exports = [
 					var irc = parts[1].trim()
 					channels[slack] = channels[irc]
 				}
-		})
-		return channels
-	})()
+			})
+			return channels
+		})()
+	}
 ]
