@@ -9,14 +9,18 @@ module.exports = [
 				var parts = value.split(':')
 				if ( parts.length === 1 ) {
 					var part = parts[0].trim()
-					channels[part] = channels[part]
+					channels[part] = part
 				}
 				else if ( parts.length === 2 ) {
 					var slack = parts[0].trim()
 					var irc = parts[1].trim()
-					channels[slack] = channels[irc]
+					channels[slack] = irc
 				}
-		})
-		return channels
-	})()
+			})
+			return channels
+		})()
+	}
 ]
+
+// Debug
+console.log('Starting with configuration:', module.exports)
