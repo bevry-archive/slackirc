@@ -26,4 +26,4 @@ module.exports = [{
 }]
 
 // Debug
-console.log('Starting with configuration:', module.exports)
+console.log('Starting with configuration:', JSON.stringify(module.exports, null, '  '))
