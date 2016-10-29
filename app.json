@@ -1,0 +1,24 @@
+{
+  "name": "slackirc",
+  "description": "Slack IRC Bot",
+  "repository": "https://github.com/bevry/slackirc",
+  "keywords": ["node", "slack"],
+  "env": {
+    "SLACKIRC_NICKNAME": {
+      "description": "The username of your slackirc bot",
+      "required": false
+    },
+    "SLACKIRC_SERVER": {
+      "description": "The IRC server to connect to (defaults to chat.freenode.net)",
+      "required": false
+    },
+    "SLACKIRC_TOKEN": {
+      "description": "The API token for your slackirc bot",
+      "required": true
+    },
+    "SLACKIRC_CHANNELS": {
+      "description": "A CSV channel mapping of slack channels to IRC channels. E.g. bevry,docpad,historyjs:history.js)",
+      "required": true
+    }
+  }
+}

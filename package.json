@@ -1,0 +1,25 @@
+{
+  "title": "Deploy Slack IRC Bot",
+  "name": "slackirc-for-deployment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deploy ekmartin/slack-irc to Heroku and whatnot",
+  "license": "Unlicense",
+  "author": "2016+ Benjamin Arthur Lupton <b@lupton.cc> (http://balupton.com)",
+  "homepage": "https://github.com/bevry/slackirc#readme",
+  "bugs": {
+    "url": "https://github.com/bevry/slackirc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevry/slackirc.git"
+  },
+  "scripts": {
+    "start": "slack-irc --config ./config.js"
+  },
+  "dependencies": {
+    "slack-irc": "^3.8.7"
+  },
+  "maintainers": [],
+  "contributors": []
+}
