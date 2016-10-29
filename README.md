@@ -11,13 +11,10 @@ Deploy [ekmartin/slack-irc](https://github.com/ekmartin/slack-irc) to servers ea
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bevry/slackirc/tree/master)
 
-<!-- HISTORY/ -->
-
 <h2>History</h2>
 
-<a href="https://github.com/bevry/slackirc/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/bevry/slackirc/commits/master">Discover the release history by heading on over to the commits page.</a>
 
-<!-- /HISTORY -->
 
 
 <!-- BACKERS/ -->
@@ -26,7 +23,7 @@ Deploy [ekmartin/slack-irc](https://github.com/ekmartin/slack-irc) to servers ea
 
 <h3>Maintainers</h3>
 
-No maintainers yet! Will you be the first?
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/slackirc/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/slackirc">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
