@@ -5,7 +5,11 @@
   "keywords": ["node", "slack"],
   "env": {
     "SLACKIRC_NICKNAME": {
-      "description": "The username of your slackirc bot (defaults to slackirc)",
+      "description": "The IRC nickname of your slackirc bot (defaults to slackirc)",
+      "required": false
+    },
+    "SLACKIRC_PASSWORD": {
+      "description": "The IRC password to for your slackirc bot",
       "required": false
     },
     "SLACKIRC_SERVER": {
@@ -13,7 +17,7 @@
       "required": false
     },
     "SLACKIRC_TOKEN": {
-      "description": "The API token for your slackirc bot",
+      "description": "The Slack API token for your slackirc bot",
       "required": true
     },
     "SLACKIRC_CHANNELS": {
