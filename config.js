@@ -21,3 +21,6 @@ module.exports = [
 		})()
 	}
 ]
+
+// Debug
+console.log('Starting with configuration:', module.exports)
