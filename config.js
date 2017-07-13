@@ -1,5 +1,5 @@
 // Prepare
-const nickname = process.env.SLACKIRC_NICKNAME || 'slackirc'
+const username = process.env.SLACKIRC_NICKNAME || 'slackirc'
 const server = process.env.SLACKIRC_SERVER || 'chat.freenode.net'
 const password = process.env.SLACKIRC_PASSWORD
 const token = process.env.SLACKIRC_TOKEN
@@ -27,7 +27,7 @@ const commands = password && [
 
 // Map
 module.exports = [{
-	nickname: nickname,
+	nickname: username,
 	server: server,
 	token: token,
 	channelMapping: channels,
