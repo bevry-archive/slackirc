@@ -8,6 +8,9 @@
   "license": "Unlicense",
   "author": "2016+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [],
+  "engines": {
+    "node": "8"
+  },
   "bugs": {
     "url": "https://github.com/bevry/slackirc/issues"
   },
