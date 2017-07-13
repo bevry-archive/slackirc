@@ -43,4 +43,4 @@ module.exports = [{
 // Debug
 console.log('Starting with versions:', JSON.stringify(process.versions, null, '  '))
 console.log('Starting with environment configuration:', JSON.stringify(process.env, null, '  '))
-console.log('Starting with slackiconfiguration:', JSON.stringify(module.exports, null, '  '))
+console.log('Starting with slackirc configuration:', JSON.stringify(module.exports, null, '  '))
